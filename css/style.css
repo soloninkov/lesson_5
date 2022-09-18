@@ -1,0 +1,114 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  font-family: Playfair Display;
+  font-weight: 700;
+  text-align: center;
+  color: #dc143c;
+  text-decoration: line-through;
+  letter-spacing: -4px;
+}
+.text {
+  font-family: Playfair Display;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  text-shadow: 7px 7px 7px red;
+  margin: 10px 10px 30px 10px;
+}
+
+div {
+  font-family: GolosUl;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  /* white-space: nowrap */
+}
+h1.text {
+  font-family: GolosUl;
+  font-weight: 500;
+  /* text-decoration: none; */
+  margin: 20px;
+}
+
+li {
+  padding: 20px 20px 20px 20px;
+}
+.list {
+  padding: 220px;
+  font-size: 40px;
+  color: rgba(40, 1, 77, 0.781);
+  text-decoration: underline;
+}
+.paragraf {
+  color: red;
+  text-decoration: overline;
+  margin: 25px;
+}
+
+.lesson {
+  text-transform: uppercase;
+  text-indent: 60px;
+  color: blue;
+  margin: 20px 20px;
+}
+
+.block {
+  word-spacing: 40px;
+  font-size: 30px;
+  line-height: 1.2;
+}
+.text-lesson {
+  background-color: antiquewhite;
+  padding: 40px 40px 40px 40px;
+}
+
+h6 {
+  color: aqua;
+  text-align: right;
+  font-size: 30px;
+}
+.content {
+  text-align: justify;
+  background-color: #dc143c;
+  margin-bottom: 200px;
+}
+mark {
+  color: greenyellow;
+}
+span {
+  color: #dc143c;
+}
+.latter {
+  font-size: 55px;
+  color: yellow;
+  text-shadow: 5px 10px 5px black, 10px 15px 10px red;
+}
+
+.container {
+  color: red;
+}
+
+#container {
+  color: blue;
+}
+.container#container {
+  color: green;
+}
+div.container#container {
+  color: rgba(2, 39, 39, 0.452);
+}
+.content > p {
+  color: blue;
+}
+
+.text-p + p {
+  color: red;
+}
+
+.block ~ p {
+  color: darkorange;
+}
